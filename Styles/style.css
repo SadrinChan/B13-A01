@@ -209,3 +209,73 @@ nav .menu a {
     color: #636E72;
     line-height: 24px;
 }
+
+/* Second Brain Section */
+#second-brain {
+    padding: 100px 0;
+    background-color: #F8F9FA;
+}
+
+#second-brain .second-brain-container {
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 80px;
+    align-items: center;
+}
+
+.second-brain-image {
+    flex: 1;
+}
+
+.second-brain-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.second-brain-content {
+    flex: 1;
+}
+
+.second-brain-content .section-message {
+    font-size: 14px;
+    font-weight: 600;
+    color: #4CAF50;
+    letter-spacing: 1px;
+    margin-bottom: 16px;
+}
+
+.second-brain-content h2 {
+    font-size: 42px;
+    font-weight: 700;
+    color: #2D3436;
+    margin-bottom: 24px;
+    line-height: 1.3;
+}
+
+.second-brain-content .description {
+    font-size: 16px;
+    color: #636E72;
+    line-height: 28px;
+    margin-bottom: 32px;
+}
+
+.features-list {
+    list-style: none;
+}
+
+.features-list li {
+    font-size: 16px;
+    color: #2D3436;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.features-list .check-icon {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+}
