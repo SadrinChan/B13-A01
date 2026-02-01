@@ -1,0 +1,45 @@
+/* Navbar Section */
+.navbar {
+    background-color: #ffffff;
+    padding: 20px 0;
+}
+
+.nav-container {
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Logo */
+.logo img {
+    height: 40px;
+}
+
+/* Menu */
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* Button */
+.btn-green {
+    background-color: #4CAF6D;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
