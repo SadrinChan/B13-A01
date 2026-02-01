@@ -53,3 +53,71 @@ nav .menu a {
     color: #333333;
     text-decoration: none;
 }
+
+/* Banner Section */
+#banner {
+    background-image: url('../images/assets/hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    padding: 120px 0;
+    text-align: center;
+}
+
+#banner .banner-container {
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+#banner .banner-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.banner-tag {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 8px 16px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.banner-tag span {
+    font-size: 14px;
+    font-weight: 500;
+    color: #333333;
+}
+
+#banner h1 {
+    font-size: 56px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 24px;
+    line-height: 1.2;
+}
+
+#banner .green-text {
+    color: #4CAF50;
+}
+
+#banner p {
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+.banner-buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.btn-primary {
+    background-color: #4CAF50;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    border: 2px solid #ffffff;
+}
